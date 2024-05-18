@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="../css/first.css" rel="stylesheet">
+		<title>虚无</title>
+		<style>
+			html{
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<!--******************head**********************-->
+		<span class="dft">——————————————————————————————————————————————————————————————————————————————————————————————————————————————</span>
+		<div id="head">
+		</div>
+		<div id="light"></div>
+		<script src="../js/snow.js"></script>
+		<script src="../js/mlight.js"></script>
+		<div class="times" style="color:white;font-size: 130px;text-align: center;margin: auto;text-shadow: 0px 0px 10px rgb(255, 230, 0);"></div>
+	</body>
+	<script>
+		var tims=document.querySelector('.times')
+		setInterval(function(){
+			a=new Date()
+			tims.innerHTML=(a.getFullYear()+'/'+a.getMonth()+'/'+a.getDate()," ",a.getHours()+":"+a.getMinutes()+":"+a.getSeconds())
+		}, 1000);
+		
+	</script>
+</html>

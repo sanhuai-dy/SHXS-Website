@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="../css/seeblog.css" rel="stylesheet">
+		<link href="../css/first.css" rel="stylesheet">
+		<title>SH的生活记录</title>
+	</head>
+	<body>
+		<!--******************head**********************-->
+		<div class="dft">———————————————————————————————————————————————————————————————————————————————————————————</div>
+		<div id="head">
+			<span id="name" class="dft">SHXS</span>
+			<span class="dft">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<a href="/"><span class="titletext">返回主页</span></a>
+		<div class="dft">———————————————————————————————————————————————————————————————————————————————————————————</div>
+		</div>
+		<!--******************body**********************-->
+		<a href="/blog" style="margin: auto;text-align: center;width:max-content;display: block;"><span class="titletext" style="text-align: center;font-size:50px;color:rgb(255, 148, 148);">返回</span></a>
+		<div class="send">
+			<div class="tl">
+				{{title}}
+			</div>
+			<span class="cont">{{content}}</span>
+			<div class="zw">
+				<div class="use">
+					文章发表人：{{username}}
+					
+				</div>
+				
+				<div class="use">
+					发表日期：{{time}}
+					
+				</div>
+				<button class="buttons" class="use">删除</button>
+
+			</div>
+		</div>
+		<div class="sure">
+			<br />
+			你确定要删除吗？
+			<br />
+			<br />
+			<button class="buttons">取消</button>
+			<span style="margin-left: 50px;"></span>
+			<button class="buttons">确定</button>
+		</div>
+		<span style="display: none;" class="blogid">{{blogid}}</span>
+		<script type="text/javascript" src="../js/jquery/jquery-1.8.3.min.js"></script>
+		<script src="../js/seeblog.js"></script>
+		<script src="../js/snow.js"></script>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+html{
+    display:flex;
+    background:repeating-linear-gradient(72.8deg,
+             #79b 0,rgb(163, 209, 255) 10%,#58a 0,rgb(120, 201, 255) 10%);    
+
+             
+
+}
+.nextline{
+    display: block;
+    margin-top:100px;
+}
+.clear{
+    clear:both;
+}
+.upup{
+    margin-top:50px;
+}
+.center{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height:100px;
+}

@@ -1,0 +1,71 @@
+.titlee{
+    background: rgba(0, 0, 0, 0.747);
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-size:50px;
+    width: 600px;
+    height:70px;
+    margin:auto 0;
+    margin-top:20px;
+
+    color:white;
+
+}
+.textt{
+    text-align:center;
+    background: rgba(255, 255, 255, 0.562);
+    border: 3px solid black;
+    border-radius: 50px;
+    font-size:30px;
+    width: 1000px;
+    height:700px;
+    margin:auto;
+    margin-top:20px;
+}
+.submite{
+
+    display: block;
+    background: rgba(255, 255, 255, 0.562);
+    border: 3px solid black;
+    border-radius: 50px;
+    text-align:center;
+    font-size:30px;
+    width: 300px;
+    height:70px;
+    margin:auto;
+    margin-top:20px;
+}
+.send{
+    text-align:center;
+    width:80%;
+    height:2000px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin:0 auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+.tl{
+    margin-top: 20px;
+    font-size: 70px;
+	color:rgba(229, 255, 0, 0.616);
+	text-shadow:0px 0px 19px rgb(37, 255, 219);
+	transform:scale(1);
+	transition:font-size 3s,color 3s,text-shadow 3s,transform 3s;
+    font-family: fangsong;
+    font-weight:bold;
+}
+.cont{
+    margin-top: 50px;
+    font-size: 80px;
+	color:rgb(218, 106, 2);
+	text-shadow:2px 3px 12px rgb(255, 255, 255);
+	transform:scale(1);
+	transition:font-size 3s,color 3s,text-shadow 3s,transform 3s;
+    font-family: fangsong;
+    font-weight:bold;
+}
+html{
+    background-color: aqua;
+}

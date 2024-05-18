@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=1920,height:1080,initial-scale=0.3"charset="utf-8" />
+		<link href="../css/first.css" rel="stylesheet">
+		<title>SH的生活记录</title>
+	</head>
+	<body>  
+		<!--******************head**********************-->
+		<span class="dft">——————————————————————————————————————————————————————————————————————————————————————————————————————————————</span>
+		<div id="head">
+			<span id="name">SHXS</span>
+			<span class="dft">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<a href="#"><span class="titletext">主页</span></a>
+			<a href="blog"><span class="titletext" id="down">blog</span></a>
+			<a href="login"><span id="login">登陆</span></a>
+			<a href="zc"><span id="zc">注册</span></a>
+			<a href="black"><span id="zc">小黑屋</span></a>
+			<a href="act"><span id="zc">活动</span></a>
+			<div class="users">
+				<img class="userimg" />
+				<span class="usert">
+					<span class="TS1">欢迎光临！亲爱的</span>
+					<span class="usertt">{{username}}</span>
+					<span style="display: none;" id="tip">{{tip}}</span>
+					<span class="TS2">未登录！<a style="color:red" href="login">点我前往登录</a></span>
+				</span>
+			</div>
+		<span class="dft">——————————————————————————————————————————————————————————————————————————————————————————————————————————————</span>
+		</div>
+		<div class="center">
+			<div class="wenhou">
+				<h1 class="time"></h1>
+				<h4 class="now"></h4>
+				<div></div>
+				<h2 class="timer"></h2>
+				<div id="dow">
+					<span id="sprrrr">一言语录</span>
+					<h2 id="saidapi">{{saidapi}}</h2>
+				</div>
+			</div>
+			
+			<div class="robot">
+				<h1 id="robotname">SHXD</h1>
+				<div class="sayborder">
+					<div class="qip"><span class="robotsay">HI!我是SHXD 跟我聊聊天吧！</span></div>
+				</div>
+				<input type="text" placeholder="和机器人聊聊天吧" class="say" onkeydown="enter()">
+			</div>
+		</div>
+		<span class="dft">——————————————————————————————————————————————————————————————————————————————————————————————————————————————</span>
+		
+		<script src="../js/index.js"></script>
+		<script type="text/javascript" src="../js/jquery/jquery-1.8.3.min.js"></script>
+		<script src="../js/snow.js"></script>
+		<!--******************body**********************-->
+		<a href="https://beian.miit.gov.cn/" target="_blank" class="beian">粤ICP备2023013921号</a>
+		
+	</body>
+</html>
