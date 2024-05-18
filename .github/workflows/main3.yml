@@ -17,5 +17,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: What can I say?
+        uses: actions/checkout@v4
       - run: echo "It just nothing but."
       - run: echo "YOU./"
