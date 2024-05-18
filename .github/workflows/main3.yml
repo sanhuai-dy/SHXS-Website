@@ -1,22 +1,21 @@
-            - name: Setup Python
-  uses: actions/setup-python@v5.1.0
-  with:
-    # Version range or exact version of Python or PyPy to use, using SemVer's version range syntax. Reads from .python-version if unset.
-    python-version: 3.7.8
-    # File containing the Python version to use. Example: .python-version
-    python-version-file: # optional
-    # Used to specify a package manager for caching in the default directory. Supported values: pip, pipenv, poetry.
-    cache: # optional
-    # The target architecture (x86, x64) of the Python or PyPy interpreter.
-    architecture: # optional
-    # Set this option if you want the action to check for the latest available version that satisfies the version spec.
-    check-latest: # optional
-    # The token used to authenticate when fetching Python distributions from https://github.com/actions/python-versions. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting.
-    token: # optional, default is ${{ github.server_url == 'https://github.com' && github.token || '' }}
-    # Used to specify the path to dependency files. Supports wildcards or a list of file names for caching multiple dependencies.
-    cache-dependency-path: # optional
-    # Set this option if you want the action to update environment variables.
-    update-environment: # optional, default is true
-    # When 'true', a version range passed to 'python-version' input will match prerelease versions if no GA versions are found. Only 'x.y' version range is supported for CPython.
-    allow-prereleases: # optional
-          
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: What can I say?
+      - run: echo "It just nothing but."
+      - run: echo "YOU./"
